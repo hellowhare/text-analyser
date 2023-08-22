@@ -1,6 +1,6 @@
 text = input('Введите текст: ')
 text = text.lower()
-punctuation = ['.', ',', '!', '?', '-', ':', ';']
+punctuation = ['.', ',', '!', '?', '-', ':', ';'] #deleting punctuation from the text
 for i in punctuation:
     text = text.replace(i, '')
 words = text.split()
